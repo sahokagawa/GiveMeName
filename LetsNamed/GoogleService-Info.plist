@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>431738026539-20q9bcjlt4jinpgi602ia0nj1nk9jo2r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.431738026539-20q9bcjlt4jinpgi602ia0nj1nk9jo2r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyANyw3P1HX0BIyNcPEUVM-xQPC3XA9_mKo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>431738026539</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.LetsNamed</string>
+	<key>PROJECT_ID</key>
+	<string>givemenameproject</string>
+	<key>STORAGE_BUCKET</key>
+	<string>givemenameproject.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:431738026539:ios:7ad71076a387068043486e</string>
+	<key>DATABASE_URL</key>
+	<string>https://givemenameproject.firebaseio.com</string>
+</dict>
+</plist>
