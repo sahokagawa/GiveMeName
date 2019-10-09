@@ -6,10 +6,11 @@
 //  Copyright © 2019 香川紗穂. All rights reserved.
 //
 
-//import Siren
+
 import UIKit
 import IQKeyboardManagerSwift
 import Firebase
+//import Siren
 
 
 @UIApplicationMain

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5ON-yQ-CAv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sSn-EP-Xfo">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -222,6 +222,21 @@
             </objects>
             <point key="canvasLocation" x="3804" y="847"/>
         </scene>
+        <!--Last Result View Controller-->
+        <scene sceneID="hcp-9C-l6G">
+            <objects>
+                <viewController id="sSn-EP-Xfo" customClass="LastResultViewController" customModule="LetsNamed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Su-ka-jFt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sd8-4h-Wzj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="db9-dD-fqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4680.8000000000002" y="843.32833583208401"/>
+        </scene>
         <!--Main View Controller-->
         <scene sceneID="1Wt-rl-USM">
             <objects>
@@ -248,7 +263,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giveme" translatesAutoresizingMaskIntoConstraints="NO" id="zYO-4t-JKn">
-                                <rect key="frame" x="96.5" y="124" width="262.5" height="66.5"/>
+                                <rect key="frame" x="96.5" y="80" width="262.5" height="66.5"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -289,22 +304,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="わたしの名前を考えていただき、ありがとうございます。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZ9-54-jAX">
-                                <rect key="frame" x="37.5" y="133" width="300" height="41"/>
+                                <rect key="frame" x="37.5" y="89" width="300" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="※目安といたしまして、当該●月●日アップデートから1週間ほどとなります。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvI-ex-Xcf">
-                                <rect key="frame" x="37.5" y="447" width="300" height="61"/>
+                                <rect key="frame" x="37.5" y="403" width="300" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mix" translatesAutoresizingMaskIntoConstraints="NO" id="eAB-Xb-UUx">
-                                <rect key="frame" x="37.5" y="215" width="300" height="66.5"/>
+                                <rect key="frame" x="37.5" y="171" width="300" height="66.5"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOD-9v-fLL">
-                                <rect key="frame" x="0.0" y="536" width="375" height="41"/>
+                                <rect key="frame" x="0.0" y="492" width="375" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Topに戻る"/>
                                 <connections>
@@ -312,7 +327,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アプリ開発者の独断による選考結果をお待ちいただけますと幸いです。アップデート通知が届いた後、アップデートしていただけるとご覧になれます。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2c-ah-zAm">
-                                <rect key="frame" x="37.5" y="308" width="300" height="81.5"/>
+                                <rect key="frame" x="37.5" y="264" width="300" height="81.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -374,4 +389,7 @@
         <image name="mix" width="766" height="220"/>
         <image name="sqare" width="207" height="361"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="yMm-Ik-8EH"/>
+    </inferredMetricsTieBreakers>
 </document>
